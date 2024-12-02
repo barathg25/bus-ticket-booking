@@ -104,4 +104,5 @@ def main_menu():
             print("Invalid choice. Try again.")
 
 # The Main Function
-main_menu()
+if __name__ == "__main__":
+    main_menu()
