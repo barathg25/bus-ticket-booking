@@ -98,10 +98,10 @@ def main_menu():
         elif choice == 4:
             cancel_booking()
         elif choice == 5:    
-        print("Goodbye!")
+            print("Goodbye!")
             break
-        else:
-            print("Invalid choice. Try again.")
+    else:
+        print("Invalid choice. Try again.")
 
 # The Main Function
 if __name__ == "__main__":
